@@ -1,0 +1,30 @@
+{
+  "project_tag": "embodied_ai",
+
+  "supported_environments": [
+    "home",
+    "office",
+    "retail",
+    "healthcare",
+    "hospitality",
+    "logistics",
+    "factory",
+    "education",
+    "outdoor"
+  ],
+
+  "default_environment": "retail",
+
+  "schema_version": "1.0",
+
+  "duplicate_detection": {
+    "enabled": true,
+    "similarity_threshold": 0.9
+  },
+
+  "export": {
+    "format": "xlsx",
+    "sheet_name": "Tasks",
+    "include_headers": true
+  }
+}
